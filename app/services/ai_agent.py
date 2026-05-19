@@ -1,6 +1,7 @@
 from pydantic import BaseModel
 from google import genai
 from google.genai import types
+import os
 
 class JobProfile(BaseModel):
     title: str
